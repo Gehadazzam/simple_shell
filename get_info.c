@@ -46,7 +46,7 @@ void set_info(info_t *info, char **av)
 }
 
 /**
- * free_argument - free a struct
+ * free_info - free a struct
  * @info: pointer to the stuct
  * @num: int to check
  * Return: void

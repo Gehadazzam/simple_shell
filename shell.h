@@ -128,7 +128,7 @@ int loophsh(char **);
 /* errors.c */
 void _eputs(char *);
 int _eputchar(char);
-int _putfd(char , int);
+int _putfd(char, int);
 int _putsfd(char *, int);
 
 /* string.c */
@@ -237,12 +237,7 @@ int replace_alias(info_t *);
 int replace_vars(info_t *);
 int replace_string(char **, char *);
 
-/********************
-
 char **str_tokn(char *command, char *delim);
-int file_mode(char **av, struct_t *argument);
 void handle_sign(int sign);
-
-*********************/
-
+int file_mode(char **av, info_t *argument);
 #endif

@@ -45,7 +45,7 @@ void print_error(info_t *info, char *str)
 }
 
 /**
- * print_integer - print an integer to a filedescriptor
+ * print_d - print an integer to a filedescriptor
  * @input: number
  * @fd: tfile
  * Return: character

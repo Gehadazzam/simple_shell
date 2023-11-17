@@ -61,11 +61,9 @@ int read_history(info_t *info)
 	int i = 0, last = 0, linecount = 0;
 	ssize_t fd, rdlen, fsize = 0;
 	struct stat st;
-	char *buffer = NULL, *name_file = get_history_file(info);
-
+char *buffer = NULL, *name_file = get_history_file(info);
 	if (!name_file)
 		return (0);
-
 	fd = open(name_file, O_RDONLY);
 	free(name_file);
 	if (fd == -1)
