@@ -81,7 +81,7 @@ size_t print_list_str(const list_t *h)
 {
 	size_t i;
 
-	for ( i = 0; h; i++)
+	for (i = 0; h; i++)
 	{
 		_puts(h->str ? h->str : "(nil)");
 		_puts("\n");
